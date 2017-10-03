@@ -14,10 +14,10 @@ int main()
         cout << "they are odd" << endl;
     }
     // 2
-    const int num1 = 20;
-    if ((x < num1) || (y < num1) && !((x < num1) && (y < num1)))
+    const int num = 20;
+    if ((x < num) || (y < num) && !((x < num) && (y < num)))
     {
-        cout << "one of the numbers <" << num1 << endl;
+        cout << "one of the numbers <" << num << endl;
     }
     // 3
     if ((x == 0) || (y == 0))
@@ -28,10 +28,10 @@ int main()
     cout << "z=";
     int z = 0;
     cin >> z;
-    const int num2 = 0;
-    if ((x < num2) && (y < num2) && (z < num2))
+    const int condition = 0;
+    if ((x < condition) && (y < condition) && (z < condition))
     {
-        cout << "all numbers < " << num2 << endl;
+        cout << "all numbers < " << condition << endl;
     }
     // 5
     if ((x % 5 == 0) && (y % 5 == 0))
@@ -59,10 +59,10 @@ int main()
         cout << "5|z" << endl;
     }
     // 6
-    const int num3 = 100;
-    if ((x > num3) || (y > num3) || (z > num3))
+    const int cond = 100;
+    if ((x > cond) || (y > cond) || (z > cond))
     {
-        cout << "one of the numbers > " << num3 << endl;
+        cout << "one of the numbers > " << cond << endl;
     }
     //////// Шахматы
     /* Ладья На поле (a, b) расположена ладья. 
@@ -108,7 +108,7 @@ int main()
             {
                 cout << "the pawn goes to (" << p.first << "," << p.second << ")" << endl;
             }
-               }
+        }
     }
     //////
     const int num4 = 7;
@@ -116,14 +116,14 @@ int main()
     for (int j = 1; j < 10; j++)
     {
             cout << num4 << 'x' << j << '=' << num4*j << endl;
-        }
+    }
     //////
     j = 1;
     for (int i = 8; i < 15; i++)
     {
             j = j*i;
             cout << j << endl << endl;
-        }
+    }
     //////
     int a = 0;
     j = 1;
@@ -134,8 +134,8 @@ int main()
         {
             j = j*m;
             cout << j << endl << endl;
-            }
         }
+    }
     //////
     int b = 0;
     j = 1;
