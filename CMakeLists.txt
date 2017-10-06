@@ -4,9 +4,13 @@ include_directories(SYSTEM
     ./
 )
 
+ADD_DEFINITIONS(
+    -std=c++11
+)
+
 # enum your files
 add_executable(executable
-	hw.cpp
+    hw.cpp
 )
 
 target_link_libraries(executable)
